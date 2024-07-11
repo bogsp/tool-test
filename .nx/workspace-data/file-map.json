@@ -1,0 +1,34 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.4.2",
+  "deps": {
+    "lerna": "^8.1.6"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "9553509497983826621"
+      },
+      {
+        "file": "nx.json",
+        "hash": "1921754567074770008"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4380309994476405394"
+      },
+      {
+        "file": "package.json",
+        "hash": "13295977145708507376"
+      }
+    ],
+    "projectFileMap": {}
+  }
+}
