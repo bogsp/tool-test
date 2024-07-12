@@ -1,0 +1,25 @@
+{
+	"name": "@tool-test/desktop",
+	"version": "0.1.0",
+	"description": "Electron desktop application",
+	"author": "Bogs Paulino <bogs.paulino@gmail.com>",
+	"license": "ISC",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron .",
+		"pack": "electron-builder --dir",
+		"dist": "electron-builder"
+	},
+	"devDependencies": {
+		"electron": "^13.0.0",
+		"electron-builder": "^22.11.7"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bogsp/tool-test.git"
+	},
+	"bugs": {
+		"url": "https://github.com/bogsp/tool-test/issues"
+	},
+	"homepage": "https://github.com/bogsp/tool-test#readme"
+}

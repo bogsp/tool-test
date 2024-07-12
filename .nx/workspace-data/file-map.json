@@ -9,26 +9,383 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "lerna.json",
+        "hash": "9007278116060652552"
+      },
+      {
         "file": ".gitignore",
         "hash": "16722851342459420272"
       },
       {
-        "file": "lerna.json",
-        "hash": "9553509497983826621"
-      },
-      {
-        "file": "nx.json",
-        "hash": "1921754567074770008"
+        "file": "package.json",
+        "hash": "17912418651769209110"
       },
       {
         "file": "package-lock.json",
-        "hash": "4380309994476405394"
+        "hash": "5858839932165046429"
       },
       {
-        "file": "package.json",
-        "hash": "13295977145708507376"
+        "file": "nx.json",
+        "hash": "6614800474329066461"
       }
     ],
-    "projectFileMap": {}
+    "projectFileMap": {
+      "@tool-test/backend": [
+        {
+          "file": "apps/backend/.eslintrc.js",
+          "hash": "17487592752408938585"
+        },
+        {
+          "file": "apps/backend/.gitignore",
+          "hash": "12634402967133909834"
+        },
+        {
+          "file": "apps/backend/.prettierrc",
+          "hash": "5008776440579340246"
+        },
+        {
+          "file": "apps/backend/README.md",
+          "hash": "16767141013887744647"
+        },
+        {
+          "file": "apps/backend/nest-cli.json",
+          "hash": "18272654682417215031"
+        },
+        {
+          "file": "apps/backend/package.json",
+          "hash": "11268917465136401173",
+          "deps": [
+            "npm:@nestjs/cli",
+            "npm:@nestjs/schematics",
+            "npm:@nestjs/testing",
+            "npm:@types/express",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/supertest",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-config-prettier",
+            "npm:eslint-plugin-prettier",
+            "npm:jest",
+            "npm:prettier",
+            "npm:source-map-support",
+            "npm:supertest",
+            "npm:ts-jest@29.2.2",
+            "npm:ts-loader",
+            "npm:ts-node",
+            "npm:tsconfig-paths",
+            "npm:typescript",
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@nestjs/platform-express",
+            "npm:reflect-metadata",
+            "npm:rxjs"
+          ]
+        },
+        {
+          "file": "apps/backend/src/app.controller.spec.ts",
+          "hash": "3407876829745233448"
+        },
+        {
+          "file": "apps/backend/src/app.controller.ts",
+          "hash": "1345450293891055440"
+        },
+        {
+          "file": "apps/backend/src/app.module.ts",
+          "hash": "4590305082660932420"
+        },
+        {
+          "file": "apps/backend/src/app.service.ts",
+          "hash": "15275323873054081339"
+        },
+        {
+          "file": "apps/backend/src/main.ts",
+          "hash": "12077922596952112171"
+        },
+        {
+          "file": "apps/backend/test/app.e2e-spec.ts",
+          "hash": "15404927841147059589"
+        },
+        {
+          "file": "apps/backend/test/jest-e2e.json",
+          "hash": "10645908491471703423"
+        },
+        {
+          "file": "apps/backend/tsconfig.build.json",
+          "hash": "9666801268768259513"
+        },
+        {
+          "file": "apps/backend/tsconfig.json",
+          "hash": "9174465598568239903"
+        },
+        {
+          "file": "apps/backend/dtos/index.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/backend/repositories/index.ts",
+          "hash": "3244421341483603138"
+        }
+      ],
+      "@tool-test/web": [
+        {
+          "file": "apps/web/.eslintrc.json",
+          "hash": "10616060546436571437"
+        },
+        {
+          "file": "apps/web/.gitignore",
+          "hash": "15751075988610075934"
+        },
+        {
+          "file": "apps/web/README.md",
+          "hash": "12205685531602560652"
+        },
+        {
+          "file": "apps/web/next.config.mjs",
+          "hash": "6567081978241091914"
+        },
+        {
+          "file": "apps/web/package.json",
+          "hash": "1569864591334965096",
+          "deps": [
+            "npm:typescript",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:eslint",
+            "npm:eslint-config-next",
+            "npm:react",
+            "npm:react-dom",
+            "npm:next"
+          ]
+        },
+        {
+          "file": "apps/web/public/next.svg",
+          "hash": "8300767200008744458"
+        },
+        {
+          "file": "apps/web/public/vercel.svg",
+          "hash": "2376673330454856631"
+        },
+        {
+          "file": "apps/web/src/app/favicon.ico",
+          "hash": "9157999678830540297"
+        },
+        {
+          "file": "apps/web/src/app/globals.css",
+          "hash": "16573379123872968227"
+        },
+        {
+          "file": "apps/web/src/app/layout.tsx",
+          "hash": "14869893044596788660"
+        },
+        {
+          "file": "apps/web/src/app/page.module.css",
+          "hash": "6975797895798679535"
+        },
+        {
+          "file": "apps/web/src/app/page.tsx",
+          "hash": "7919764136125639957"
+        },
+        {
+          "file": "apps/web/tsconfig.json",
+          "hash": "4320684160905164141"
+        }
+      ],
+      "@tool-test/mobile": [
+        {
+          "file": "apps/mobile/.gitignore",
+          "hash": "17465353064308548504"
+        },
+        {
+          "file": "apps/mobile/README.md",
+          "hash": "14154874620911534746"
+        },
+        {
+          "file": "apps/mobile/app.json",
+          "hash": "520899452856718697"
+        },
+        {
+          "file": "apps/mobile/app/(tabs)/_layout.tsx",
+          "hash": "6271955875768116145"
+        },
+        {
+          "file": "apps/mobile/app/(tabs)/explore.tsx",
+          "hash": "14909548181475628719"
+        },
+        {
+          "file": "apps/mobile/app/(tabs)/index.tsx",
+          "hash": "11875522286156120967"
+        },
+        {
+          "file": "apps/mobile/app/+html.tsx",
+          "hash": "15120444144339999227"
+        },
+        {
+          "file": "apps/mobile/app/+not-found.tsx",
+          "hash": "5574293347969992986"
+        },
+        {
+          "file": "apps/mobile/app/_layout.tsx",
+          "hash": "10324050303869823786"
+        },
+        {
+          "file": "apps/mobile/assets/fonts/SpaceMono-Regular.ttf",
+          "hash": "8316399838606165836"
+        },
+        {
+          "file": "apps/mobile/assets/images/adaptive-icon.png",
+          "hash": "16102135492459408350"
+        },
+        {
+          "file": "apps/mobile/assets/images/favicon.png",
+          "hash": "10556792184362654649"
+        },
+        {
+          "file": "apps/mobile/assets/images/icon.png",
+          "hash": "14252482080276080187"
+        },
+        {
+          "file": "apps/mobile/assets/images/partial-react-logo.png",
+          "hash": "17138856618252336249"
+        },
+        {
+          "file": "apps/mobile/assets/images/react-logo.png",
+          "hash": "12800764183471362565"
+        },
+        {
+          "file": "apps/mobile/assets/images/react-logo@2x.png",
+          "hash": "10620144842436275618"
+        },
+        {
+          "file": "apps/mobile/assets/images/react-logo@3x.png",
+          "hash": "12902748134652534090"
+        },
+        {
+          "file": "apps/mobile/assets/images/splash.png",
+          "hash": "16493559885079032523"
+        },
+        {
+          "file": "apps/mobile/babel.config.js",
+          "hash": "231774045518377938"
+        },
+        {
+          "file": "apps/mobile/components/Collapsible.tsx",
+          "hash": "16710623188056203681"
+        },
+        {
+          "file": "apps/mobile/components/ExternalLink.tsx",
+          "hash": "18430746545051851150"
+        },
+        {
+          "file": "apps/mobile/components/HelloWave.tsx",
+          "hash": "4026190346497375675"
+        },
+        {
+          "file": "apps/mobile/components/ParallaxScrollView.tsx",
+          "hash": "16269154491580211866"
+        },
+        {
+          "file": "apps/mobile/components/ThemedText.tsx",
+          "hash": "8838916204566732482"
+        },
+        {
+          "file": "apps/mobile/components/ThemedView.tsx",
+          "hash": "12328710297602153136"
+        },
+        {
+          "file": "apps/mobile/components/__tests__/ThemedText-test.tsx",
+          "hash": "5460384641768239059"
+        },
+        {
+          "file": "apps/mobile/components/__tests__/__snapshots__/ThemedText-test.tsx.snap",
+          "hash": "7137039748800291722"
+        },
+        {
+          "file": "apps/mobile/components/navigation/TabBarIcon.tsx",
+          "hash": "10208209473437966193"
+        },
+        {
+          "file": "apps/mobile/constants/Colors.ts",
+          "hash": "11938689378131257524"
+        },
+        {
+          "file": "apps/mobile/hooks/useColorScheme.ts",
+          "hash": "9854634842886202740"
+        },
+        {
+          "file": "apps/mobile/hooks/useColorScheme.web.ts",
+          "hash": "12830243518101808102"
+        },
+        {
+          "file": "apps/mobile/hooks/useThemeColor.ts",
+          "hash": "12324187649835991414"
+        },
+        {
+          "file": "apps/mobile/package.json",
+          "hash": "1406062521609589463",
+          "deps": [
+            "npm:@babel/core",
+            "npm:@types/jest",
+            "npm:@types/react@18.2.79",
+            "npm:@types/react-test-renderer",
+            "npm:jest",
+            "npm:jest-expo",
+            "npm:react-test-renderer",
+            "npm:typescript@5.3.3",
+            "npm:@expo/vector-icons",
+            "npm:@react-navigation/native@6.1.17",
+            "npm:expo",
+            "npm:expo-constants",
+            "npm:expo-font",
+            "npm:expo-linking",
+            "npm:expo-router@3.5.18",
+            "npm:expo-splash-screen",
+            "npm:expo-status-bar",
+            "npm:expo-system-ui",
+            "npm:expo-web-browser",
+            "npm:react@18.2.0",
+            "npm:react-dom@18.2.0",
+            "npm:react-native@0.74.3",
+            "npm:react-native-gesture-handler@2.16.2",
+            "npm:react-native-reanimated@3.10.1",
+            "npm:react-native-safe-area-context@4.10.1",
+            "npm:react-native-screens@3.31.1",
+            "npm:react-native-web"
+          ]
+        },
+        {
+          "file": "apps/mobile/scripts/reset-project.js",
+          "hash": "237243151441627216"
+        },
+        {
+          "file": "apps/mobile/tsconfig.json",
+          "hash": "13453316570448027213"
+        }
+      ],
+      "@tool-test/desktop": [
+        {
+          "file": "apps/desktop/README.md",
+          "hash": "8364180959162412955"
+        },
+        {
+          "file": "apps/desktop/index.html",
+          "hash": "9893456289646882199"
+        },
+        {
+          "file": "apps/desktop/main.js",
+          "hash": "15272050613510286489"
+        },
+        {
+          "file": "apps/desktop/package.json",
+          "hash": "13713876304164150248",
+          "deps": [
+            "npm:electron",
+            "npm:electron-builder"
+          ]
+        }
+      ]
+    }
   }
 }

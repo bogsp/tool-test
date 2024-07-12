@@ -1,11 +1,46 @@
 {
-  "name": "root",
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "lerna": "^8.1.6"
-  }
+	"name": "tool-test",
+	"version": "0.0.0",
+	"description": "Root for the monorepo.",
+	"author": "Bogs Paulino <bogs.paulino@gmail.com>",
+	"license": "ISC",
+	"private": true,
+	"workspaces": [
+		"apps/*",
+		"packages/*"
+	],
+	"scripts": {
+		"dev:web": "lerna run dev --scope=@tool-test/web",
+		"start:backend:dev": "lerna run start:dev --scope=@tool-test/backend",
+		"build": "lerna run build",
+		"build:web": "lerna run build --scope=@tool-test/web",
+		"build:backend": "lerna run build --scope=@tool-test/backend",
+		"start": "lerna run start",
+		"start:web": "lerna run start --scope=@tool-test/web",
+		"start:backend": "lerna run start --scope=@tool-test/backend",
+		"start:mobile": "lerna run start --scope=@tool-test/mobile",
+		"android": "lerna run android --scope=@tool-test/mobile",
+		"ios": "lerna run ios --scope=@tool-test/mobile",
+		"mobile:web": "lerna run web --scope=@tool-test/mobile",
+		"start:desktop": "lerna run start --scope=@tool-test/desktop",
+		"pack:desktop": "lerna run pack --scope=@tool-test/desktop",
+		"dist:desktop": "lerna run dist --scope=@tool-test/desktop",
+		"test": "lerna run test",
+		"test:mobile": "lerna run test --scope=@tool-test/mobile",
+		"test:backend": "lerna run test --scope=@tool-test/backend",
+		"new-version": "lerna version",
+		"publish": "lerna publish"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"lerna": "^8.1.6"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bogsp/tool-test.git"
+	},
+	"bugs": {
+		"url": "https://github.com/bogsp/tool-test/issues"
+	},
+	"homepage": "https://github.com/bogsp/tool-test#readme"
 }
